@@ -13,10 +13,12 @@
     "build:ipfs": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "lint": "standard --env mocha --fix",
-    "start": "npm run develop",
+    "install": "npm install --save",
+     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "npm run lint"
+
   },
   "dependencies": {
     "gatsby": "^3.7.2",
