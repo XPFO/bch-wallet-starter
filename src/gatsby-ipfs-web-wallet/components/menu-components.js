@@ -62,13 +62,7 @@ const MenuComponents = props => {
         <Item icon='fas-cog' key='TX History' text='TX History' />
       )
     },
-    {
-      key: 'Demo Component',
-      component: <DemoComponent key='Demo Component' {...props} />,
-      menuItem: (
-        <Item icon='fas-cog' key='Demo Component' text='Demo Component' />
-      )
-    }
+    
   ]
 }
 
